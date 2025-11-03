@@ -117,7 +117,7 @@ while (year < 2023) {
   year++;
 }
 
-//Conditional and Loops
+//Conditional and Loops.
 
 for (i = 1; i <= 10; i++) {
   if (i == 1) {
