@@ -1,3 +1,4 @@
+//Variables
 var petDog = "Rex";
 var petCat = "Pepper";
 
@@ -16,6 +17,7 @@ var catSound = "meow";
 
 console.log(petCat, "now says", catSound);
 
+//Operators and data types
 var score = 8;
 var timeRemaining = 0;
 var energy = 10;
@@ -45,6 +47,7 @@ counter += 3;
 counter -= 2;
 console.log(counter);
 
+//Conditional statement
 var age = 10;
 if (age >= 65) {
   console.log("You get your income from your pension.");
@@ -83,6 +86,7 @@ switch (day) {
     console.log("There is no such day");
 }
 
+//Loops
 for (i = 1; i < 6; i++) {
   console.log(i);
 }
@@ -111,4 +115,34 @@ var year = 2018;
 while (year < 2023) {
   console.log(year);
   year++;
+}
+
+//Conditional and Loops
+
+for (i = 1; i <= 10; i++) {
+  if (i == 1) {
+    console.log("Gold medal");
+  } else if (i == 2) {
+    console.log("Silver medal");
+  } else if (i == 3) {
+    console.log("Bronze medal");
+  } else {
+    console.log(i);
+  }
+}
+
+for (i = 1; i <= 10; i++) {
+  switch (i) {
+    case 1:
+      console.log("Gold medal");
+      break;
+    case 2:
+      console.log("Silver medal");
+      break;
+    case 3:
+      console.log("Bronze medal");
+      break;
+    default:
+      console.log(i);
+  }
 }
