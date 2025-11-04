@@ -46,10 +46,10 @@ addTwoNums(5, "5");
 console.log("It still works");
 
 //Defensive programming.
-function letterFinder2(word, match) {
-  var condition1 = typeof word == "string" && word.length >= 2;
-  var condition2 = typeof match == "string" && match.length == 1;
-  if (condition1 && condition2) {
+function letterFinderTwo(word, match) {
+  var conditionOne = typeof word == "string" && word.length >= 2;
+  var conditionTwo = typeof match == "string" && match.length == 1;
+  if (conditionOne && conditionTwo) {
     for (var i = 0; i < word.length; i++) {
       if (word[i] == match) {
         console.log("Found the", match, "at", i);
@@ -61,5 +61,5 @@ function letterFinder2(word, match) {
     console.log("Please pass correct arguments to the function");
   }
 }
-letterFinder2(2, 3);
-letterFinder2("cat", "a");
+letterFinderTwo(2, 3);
+letterFinderTwo("cat", "a");
