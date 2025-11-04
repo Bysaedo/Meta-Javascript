@@ -45,7 +45,7 @@ function addTwoNums(a, b) {
 addTwoNums(5, "5");
 console.log("It still works");
 
-//Defensive programming.
+//Defensive programming
 function letterFinderTwo(word, match) {
   var conditionOne = typeof word == "string" && word.length >= 2;
   var conditionTwo = typeof match == "string" && match.length == 1;
