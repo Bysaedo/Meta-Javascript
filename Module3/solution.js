@@ -12,7 +12,7 @@ function logDairy(dairy) {
     console.log(key);
   }
 }
-logDairy(dairy);
+logDairy();
 
 // Task 2
 const animal = {
