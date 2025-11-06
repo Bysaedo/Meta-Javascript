@@ -3,5 +3,5 @@ function timesTwo(number) {
   var doubleN = number * 2;
   return doubleN;
 }
-// Task 2: Export the timesTwo function as a module
+// Task 2: Export the timesTwo function as a
 module.exports = timesTwo;
