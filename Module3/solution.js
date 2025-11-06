@@ -30,7 +30,7 @@ function birdCan() {
 }
 birdCan();
 
-// Task 3
+// Task 3.
 function animalCan() {
   for (const key in bird) {
     console.log(key, ":", bird[key]);
